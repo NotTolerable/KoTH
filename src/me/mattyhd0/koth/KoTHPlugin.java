@@ -2,6 +2,7 @@ package me.mattyhd0.koth;
 
 import me.mattyhd0.koth.bstats.Metrics;
 import me.mattyhd0.koth.commands.KothCommand;
+import me.mattyhd0.koth.discord.discordwebhook
 import me.mattyhd0.koth.creator.selection.KothSelectionListener;
 import me.mattyhd0.koth.creator.selection.item.KothSelectionWand;
 import me.mattyhd0.koth.manager.koth.KothManager;
@@ -50,6 +51,7 @@ public class KoTHPlugin extends JavaPlugin {
         selectionWandItem = new KothSelectionWand();
         detectSupport("PlaceholderAPI");
         setupScoreboardHook();
+        new DiscordWebhook();
         kothManager = new KothManager(true);
         rewardManager = new RewardManager();
         scheduleManager = new ScheduleManager();
