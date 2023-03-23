@@ -1,0 +1,12 @@
+# Discord webhook integration by NotTolerable :)
+
+# Discord webhook configuration
+webhook-url: "https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXXX/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+
+# Embed message configuration
+embed:
+  title: "KoTH Event Started"
+  description: "A new KoTH event has started!"
+  footer: "Powered by MyPlugin"
+  thumbnail-url: "https://i.imgur.com/XXXXXXXXXXX.png"
+  color: "#FF0000"
