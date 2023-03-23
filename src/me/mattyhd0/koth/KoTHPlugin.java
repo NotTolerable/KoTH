@@ -47,6 +47,7 @@ public class KoTHPlugin extends JavaPlugin {
         setupCommands();
         setupListeners();
         Config.loadConfiguration();
+        new DiscordWebhook();
         selectionWandItem = new KothSelectionWand();
         detectSupport("PlaceholderAPI");
         setupScoreboardHook();
